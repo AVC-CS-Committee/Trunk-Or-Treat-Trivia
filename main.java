@@ -1,11 +1,8 @@
 /*
-Project Lead: Samuel Segovia
-Authors: Samuel Segovia, Cristian Herrera,Shane Powell, Jason Yang, Logan Sanchez, Bryan Abrego, Peter Kallos,
-         Kevin Flores, Frances Kaufmann, Angelica Holley
-Contributions: Shebly Gallegos, CIS 111 Zybooks
-Project Name: STEM_Trivia
-Comppletion Date: 10/09/2022
-Description: This project is a trivia game featuring 10 questions with some being STEM related questions and some being of another topic. 
+Authors: Logan Sanchez, Bailey Kwok, Blake Mosley, Rianne Papa, David Diaz, Matthew Bui, Ryan Reeves, Rafael Papa
+Project Name: Trunk-Or-Treat-Trivia
+Comppletion Date: 10/23/2023
+Description: This project is a halloween-themed trivia game featuring 10 questions, and a score at the end. 
              After answering the 10 questions, the amount of answers correct is counted using the numCorrect variable, and the correct 
              number of correct answers will be displayed along with an end message.
 
