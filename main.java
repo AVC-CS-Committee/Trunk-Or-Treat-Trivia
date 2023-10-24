@@ -31,17 +31,15 @@ class Main {
     // Title Screen
 
     System.out.println("\n AVC STEM Club Computer Science Committee presents:");
-    System.out.println("\t\t   _____      _________     ________         _      _      ");
-    System.out.println("\t\t  /     \\         |         |               / \\    / \\  ");
-    System.out.println("\t\t  \\_____          |         |_______       /   \\  /   \\ ");
-    System.out.println("\t\t        \\         |         |             /     \\/     \\");
-    System.out.println("\t\t  \\_____/         |         |_______      |            |  ");
-    System.out.println(" _________     ______       _________                   _________        _       ");
-    System.out.println("     |         |     \\          |         \\      /          |           / \\   ");
-    System.out.println("     |         |_____/          |          \\    /           |          /___\\   ");
-    System.out.println("     |         |    \\           |           \\  /            |         /     \\ ");
-    System.out.println("     |         |     \\      ____|____        \\/         ____|____    /       \\");
-    System.out.println("\n\n\t\t- A Triva Game featuring STEM and non-STEM related questions ");
+    System.out.print("\033[H\033[2J");
+    String asciiArt  = "ooooo   ooooo           oooo  oooo                                                                  ooooooooooooo           o8o               o8o            \n"
+                + "`888'   `888'           `888  `888                                                                  8'   888   `8           `\"'               `\"'            \n"
+                + " 888     888   .ooooo.   888   888   .ooooo.  oooo oooo    ooo  .ooooo.   .ooooo.  ooo. .oo.             888      oooo d8b oooo  oooo    ooo oooo   .oooo.   \n"
+                + " 888ooooo888  d88' `88b  888   888  d88' `88b  `88. `88.  .8'  d88' `88b d88' `88b `888P\"Y88b            888      `888\"8P `888   `88.  .8'  `888  `P  )88b  \n"
+                + " 888     888  888   888  888   888  888   888   `88..]88..8'   888ooo888 888ooo888  888   888            888       888      888    `88..8'    888   .oP\"888  \n"
+                + " 888     888  888   888  888   888  888   888    `888'`888'    888    .o 888    .o  888   888            888       888      888     `888'     888  d8(  888  \n"
+                + "o888o   o888o `Y8bod8P' o888o o888o `Y8bod8P'     `8'  `8'     `Y8bod8P' `Y8bod8P' o888o o888o          o888o     d888b    o888o     `8'     o888o `Y888\"8o";
+        System.out.println(asciiArt);
 
     System.out.print("\nPress enter to start:"); // Prompts user to press enter to go to next question
     continueEnter = scnr.nextLine();
