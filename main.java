@@ -221,19 +221,19 @@ class Main {
     // Bryan's question
 
     System.out.println("QUESTION 7");
-    System.out.println("What year was Antelope Valley College founded");
-    System.out.println("A. 1929");
-    System.out.println("B. 2020");
-    System.out.println("C. 1895");
-    System.out.println("D. 1738");
+    System.out.println("Which famous author wrote the classic Gothic novel \"Dracula\"?");
+    System.out.println("A. Mary Shelley");
+    System.out.println("B. Edgar Allan Poe");
+    System.out.println("C. Bram Stoker");
+    System.out.println("D. H.P. Lovecraft");
 
     answer = scnr.nextLine();
 
-    if (answer.equalsIgnoreCase("A")) {
+    if (answer.equalsIgnoreCase("C")) {
       numCorrect++;
-      System.out.println("GOOD STUFF! You have earned one sheckle dont spend it all in one place :)");
+      System.out.println("That is correct! You sure know your books! :)");
     } else {
-      System.out.println("AVC is the best how did you get that wrong! No dinner for you tonight!");
+      System.out.println("Wrong! The author of \"Dracula\" is Bram Stoker.");
     }
     System.out.println("Press enter to continue");
     continueEnter = scnr.nextLine();
@@ -242,22 +242,21 @@ class Main {
     System.out.flush();
 
     /*-------------------------------------------------------------------------------------------------------------------------*/
-    // Jason's question
 
     System.out.println("QUESTION 8");
-    System.out.println("Who is one of the people credited with inventing the Internet?");
-    System.out.println("A. Friedrich Nietzsche");
-    System.out.println("B. Nikola Tesla");
-    System.out.println("C. Robert Khan");
-    System.out.println("D. Clifford Stoll");
+    System.out.println("Who brought the Halloween tradition to the United States?");
+    System.out.println("A. The Irish");
+    System.out.println("B. The Mexicans");
+    System.out.println("C. The Chinese");
+    System.out.println("D. The British");
 
     answer = scnr.nextLine();
 
-    if (answer.equalsIgnoreCase("C")) {
+    if (answer.equalsIgnoreCase("a")) {
       numCorrect++;
-      System.out.println("Correct. You must be pretty knowledgable!");
+      System.out.println("Correct. It was the Irish, during the potato famine!");
     } else {
-      System.out.println("Really...? Okay...");
+      System.out.println("That is the wrong answer. It was the Irish!");
     }
     System.out.println("Press enter to continue");
     continueEnter = scnr.nextLine();
@@ -311,31 +310,6 @@ class Main {
 
     /*-------------------------------------------------------------------------------------------------------------------------*/
     // Cristians Question
-
-    System.out.println("QUESTION 11");
-    System.out.println(
-        "A Few Good Men was a legal drama released in 1992, starring Tom Cruise, Jack Nicholson, and Demi Moore. This film centers around an alleged murder that takes place at a military base, so now I ask you which base?");
-
-    System.out.println("A. Naval Air Station Miramar");
-    System.out.println("B. Guantanamo Bay");
-    System.out.println("C. Langley Air Force Base");
-    System.out.println("D. Who is Tom Cruise?");
-
-    answer = scnr.nextLine();
-
-    if (answer.equalsIgnoreCase("B")) {
-      numCorrect++;
-      System.out.println("Correctamundo!! Fun Fact: This movie was actually based on a true story");
-    } else {
-      System.out.println("YOU CANT HANDLE THE TRUTH!!!!!");
-    }
-
-    System.out.println("Press enter to continue.");
-    continueEnter = scnr.nextLine();
-
-    System.out.print("\033[H\033[2J");
-    System.out.flush();
-
     /*-------------------------------------------------------------------------------------------------------------------------*/
 
     // System.out.println();
