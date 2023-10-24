@@ -54,7 +54,7 @@ class Main {
     
     // Outputs Question
     System.out.println("QUESTION 1");
-    System.out.println("What was the most commercially succesful horror movie of all time.");
+    System.out.println("What was the most commercially succesful horror movie of all time?");
 
     // Outputs Choices
     System.out.println("A. Smile");
@@ -87,7 +87,7 @@ class Main {
     // Question 2
 
     System.out.println("QUESTION 2");
-    System.out.println("What is the most popular Halloween candy in America. ");
+    System.out.println("What is the most popular Halloween candy in America? ");
 
     System.out.println("A. M&Ms");
     System.out.println("B. Candy Corn");
@@ -265,16 +265,27 @@ class Main {
     /*-------------------------------------------------------------------------------------------------------------------------*/
     // Question 9
 
-    System.out.println("QUESTION 9 \nTrue or False? \nA. True \nB. False\n C. Both");
-    answer = scnr.nextLine();
+    System.out.println("QUESTION 9");
+    System.out.println("what item or items are banned only during Halloween?");
 
-    if (answer.equalsIgnoreCase("C")) {
+    // Outputs Choices
+    System.out.println("A. Silly string");
+    System.out.println("B. Fireworks");
+    System.out.println("C. A YoYo");
+    System.out.println("D. Shoes");
+    System.out.println(" ");
+
+    System.out.print("Enter your choice: ");
+    answer = scnr.nextLine(); // Answer is the variable that recieves input value from the user
+
+    if (answer.equalsIgnoreCase("a")) {
       numCorrect++;
-      System.out.println("This is the way.");
+      System.out.println("CORRECT!!! Your more gooder then others");
     } else {
-      System.out.println("Ur Dogwater kid... get better");
+      System.out.println("Incorrect! The correct answer was A. Silly string. Sorry ");
     } // tyler was here
-    System.out.println("Press enter to continue");
+    System.out.println(" ");
+    System.out.print("Press enter to continue: ");
     continueEnter = scnr.nextLine();
 
     System.out.print("\033[H\033[2J");
@@ -284,23 +295,25 @@ class Main {
     // Question 10
 
     System.out.println("QUESTION 10");
-    System.out.println("Who broke the sound barrier and when?");
+    System.out.println("What was the name of Wednesday's pet spider in the Addams family?");
 
-    System.out.println("A. Chuck Yeager; October 14, 1947");
-    System.out.println("B. Charles Lindbergh; May 21, 1927");
-    System.out.println("C. Jimmy Doolittle; April 18, 1942");
-    System.out.println("D. Howard Hughes; July 7, 1946");
+    System.out.println("A. Bob");
+    System.out.println("B. Homer");
+    System.out.println("C. Lucifer");
+    System.out.println("D. William");
+    System.out.println(" ");
+    System.out.print("Enter your choice: ");
 
     answer = scnr.nextLine();
 
-    if (answer.equalsIgnoreCase("A")) {
+    if (answer.equalsIgnoreCase("b")) {
       numCorrect++;
-      System.out.println("HAHAHA NERD!!! You must really have an appreciation for military history! ");
+      System.out.println("Correct!!! YOU WON 10$!! ask the kind person at the desk for the money.....     SIKE!!!!!  ");
     } else {
-      System.out.println("I guess you're not a major history nerd then!");
+      System.out.println("WRONG!! The correct answer was B. Homer");
     }
-
-    System.out.println("Press enter to continue.");
+    System.out.println(" ");
+    System.out.print("Press enter to continue: ");
     continueEnter = scnr.nextLine();
 
     System.out.print("\033[H\033[2J");
