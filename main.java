@@ -31,17 +31,15 @@ class Main {
     // Title Screen
 
     System.out.println("\n AVC STEM Club Computer Science Committee presents:");
-    System.out.println("\t\t   _____      _________     ________         _      _      ");
-    System.out.println("\t\t  /     \\         |         |               / \\    / \\  ");
-    System.out.println("\t\t  \\_____          |         |_______       /   \\  /   \\ ");
-    System.out.println("\t\t        \\         |         |             /     \\/     \\");
-    System.out.println("\t\t  \\_____/         |         |_______      |            |  ");
-    System.out.println(" _________     ______       _________                   _________        _       ");
-    System.out.println("     |         |     \\          |         \\      /          |           / \\   ");
-    System.out.println("     |         |_____/          |          \\    /           |          /___\\   ");
-    System.out.println("     |         |    \\           |           \\  /            |         /     \\ ");
-    System.out.println("     |         |     \\      ____|____        \\/         ____|____    /       \\");
-    System.out.println("\n\n\t\t- A Triva Game featuring STEM and non-STEM related questions ");
+    System.out.print("\033[H\033[2J");
+    String asciiArt  = "ooooo   ooooo           oooo  oooo                                                                  ooooooooooooo           o8o               o8o            \n"
+                + "`888'   `888'           `888  `888                                                                  8'   888   `8           `\"'               `\"'            \n"
+                + " 888     888   .ooooo.   888   888   .ooooo.  oooo oooo    ooo  .ooooo.   .ooooo.  ooo. .oo.             888      oooo d8b oooo  oooo    ooo oooo   .oooo.   \n"
+                + " 888ooooo888  d88' `88b  888   888  d88' `88b  `88. `88.  .8'  d88' `88b d88' `88b `888P\"Y88b            888      `888\"8P `888   `88.  .8'  `888  `P  )88b  \n"
+                + " 888     888  888   888  888   888  888   888   `88..]88..8'   888ooo888 888ooo888  888   888            888       888      888    `88..8'    888   .oP\"888  \n"
+                + " 888     888  888   888  888   888  888   888    `888'`888'    888    .o 888    .o  888   888            888       888      888     `888'     888  d8(  888  \n"
+                + "o888o   o888o `Y8bod8P' o888o o888o `Y8bod8P'     `8'  `8'     `Y8bod8P' `Y8bod8P' o888o o888o          o888o     d888b    o888o     `8'     o888o `Y888\"8o";
+        System.out.println(asciiArt);
 
     System.out.print("\nPress enter to start:"); // Prompts user to press enter to go to next question
     continueEnter = scnr.nextLine();
@@ -166,20 +164,20 @@ class Main {
     // Question 5
 
     System.out.println("QUESTION 5");
-    System.out.println("What was the first computer system that used color display?");
+    System.out.println("What is the name of the famous animated film produced by Tim Burton about a skeleton who discovers a town dedicated to Halloween?");
 
-    System.out.println("A. IBM 650");
-    System.out.println("B. Apple 1");
-    System.out.println("C. Atanasoff-Berry Computer");
-    System.out.println("D. Hewlett-Packard");
+    System.out.println("A. Corpse Bride");
+    System.out.println("B. Frankenweenie");
+    System.out.println("C. The Nightmare Before Christmas");
+    System.out.println("D. Coraline");
 
     answer = scnr.nextLine();
 
-    if (answer.equalsIgnoreCase("B")) {
+    if (answer.equalsIgnoreCase("C")) {
       numCorrect++;
-      System.out.println("Coooooorrect! Apple's a goat");
+      System.out.println("You are cooking!! Keep Going!");
     } else {
-      System.out.println("wrong!! you're so dumb lol. It's obvi the Apple 1");
+      System.out.println("Cannot believe you failed, welp by the way the answer is C. The Nightmare Before Christmas.");
     }
     System.out.println("Press enter to continue.");
     continueEnter = scnr.nextLine();
@@ -191,20 +189,21 @@ class Main {
     // Question 6
 
     System.out.println("QUESTION 6");
-    System.out.println("What's 9 + 10?");
+    System.out.println("In the song \\\"Monster Mash,\\\" who throws a party for monsters?");
 
-    System.out.println("A. 9");
-    System.out.println("B. 21");
-    System.out.println("C. 19");
-    System.out.println("D. 56");
+    System.out.println("A. Dr. Frakenstein");
+    System.out.println("B. The Mummy");
+    System.out.println("C. Igor");
+    System.out.println("D. Count Dracula");
+
 
     answer = scnr.nextLine();
 
-    if (answer.equalsIgnoreCase("C")) {
+    if (answer.equalsIgnoreCase("A")) {
       numCorrect++;
-      System.out.println("Good job!");
+      System.out.println("I see you, Good Work!");
     } else if (answer.equalsIgnoreCase("B")) {
-      System.out.println("You are quite dense.");
+      System.out.println("Get better, the answer is A. Dr. Frakenstein. Just because you lost heres a fun fact Halowwen is now the second largest commercial holiday in the country!");
     } else {
       System.out.println("Incorrect");
     }
