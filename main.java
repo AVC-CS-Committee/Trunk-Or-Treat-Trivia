@@ -46,7 +46,7 @@ class Main {
     System.out.println("     |         |     \\      ____|____        \\/         ____|____    /       \\");
     System.out.println("\n\n\t\t- A Triva Game featuring STEM and non-STEM related questions ");
 
-    System.out.println("\nPress enter to start:"); // Prompts user to press enter to go to next question
+    System.out.print("\nPress enter to start:"); // Prompts user to press enter to go to next question
     continueEnter = scnr.nextLine();
 
     // Clear screen code
@@ -54,32 +54,32 @@ class Main {
     System.out.flush();
 
     /*-------------------------------------------------------------------------------------------------------------------------*/
-    // Samuel's Question
-
+    
     // Outputs Question
     System.out.println("QUESTION 1");
-    System.out.println("The first computer bug ever found was an actual bug,");
-    System.out.println("which one was it?");
+    System.out.println("What was the most commercially succesful horror movie of all time.");
 
     // Outputs Choices
-    System.out.println("A. Fly ");
-    System.out.println("B. Bee");
-    System.out.println("C. Moth");
-    System.out.println("D. Ant");
+    System.out.println("A. Smile");
+    System.out.println("B. IT");
+    System.out.println("C. The Boogeyman");
+    System.out.println("D. Insidous");
+    System.out.println(" ");
 
+    System.out.print("Enter your choice: ");
     answer = scnr.nextLine(); // Answer is the variable that recieves input value from the user
 
     // If-Else Statement
-    if (answer.equalsIgnoreCase("C")) { // Asks if answer equals capital or lowercase letter
+    if (answer.equalsIgnoreCase("B")) { // Asks if answer equals capital or lowercase letter
       numCorrect++;
-      System.out.println("Correct Answer! The first bug was in fact a moth!"); // Prints out correct if above statement is
+      System.out.println("Correct Answer!"); // Prints out correct if above statement is
                                                                            // true
     } else {
-      System.out.println("Wrong Answer! The right answer is - wait I'm not telling."); // the else statement will be
+      System.out.println("Wrong Answer! The correct answer was IT "); // the else statement will be
                                                                                        // used when answer is wrong
     }
-
-    System.out.println("Press enter to continue."); // Prompts user to press enter to go to next question
+    System.out.println(" ");
+    System.out.print("Press enter to continue. "); // Prompts user to press enter to go to next question
     continueEnter = scnr.nextLine();
 
     // Clear screen code
@@ -90,25 +90,26 @@ class Main {
     // Logan's question
 
     System.out.println("QUESTION 2");
-    System.out
-        .println("Who is your best choice as a survival partner in a zombie apocalypse?( There is a correct answer)");
+    System.out.println("What is the most popular Halloween candy in America. ");
 
-    System.out.println("A. Mike Tyson");
-    System.out.println("B. OJ Simpson");
-    System.out.println("C. Hannibal");
-    System.out.println("D. Michael Jackson");
-
+    System.out.println("A. M&Ms");
+    System.out.println("B. Candy Corn");
+    System.out.println("C. Sour Path Kids");
+    System.out.println("D. Skittles");
+    System.out.println(" ");
+    
+    System.out.print("Enter your choice: ");
     answer = scnr.nextLine();
 
     if (answer.equalsIgnoreCase("D")) {
       numCorrect++;
       System.out.println(
-          "Correct! While the others are good at killing or eating living people, Michael Jackson is the only one with the ability to control                         zombies; doing so by dancing in the street.");
+          "Correct! You Would think it would be Candy Corn.");
     } else {
-      System.out.println("Unfortunately, you would...   die.");
+      System.out.println("Unfortunately, your wrong.... And basic... And wrong");
     }
-
-    System.out.println("Press enter to continue.");
+    System.out.println(" ");
+    System.out.print("Press enter to continue.");
     continueEnter = scnr.nextLine();
     System.out.print("\033[H\033[2J");
     System.out.flush();
