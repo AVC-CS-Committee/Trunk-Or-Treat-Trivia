@@ -51,7 +51,7 @@ class Main {
     System.out.flush();
 
     /*-------------------------------------------------------------------------------------------------------------------------*/
-    // Samuel's Question
+    // Question 1
 
     // Outputs Question
     System.out.println("QUESTION 1");
@@ -84,7 +84,7 @@ class Main {
     System.out.flush();
 
     /*-------------------------------------------------------------------------------------------------------------------------*/
-    // Logan's question
+    // Question 2
 
     System.out.println("QUESTION 2");
     System.out
@@ -110,7 +110,7 @@ class Main {
     System.out.print("\033[H\033[2J");
     System.out.flush();
     /*-------------------------------------------------------------------------------------------------------------------------*/
-    // Peter's Question
+    // Question 3
 
     System.out.println("QUESTION 3");
     System.out.println("In which country did Halloween start?");
@@ -136,7 +136,7 @@ class Main {
     System.out.flush();
 
     /*-------------------------------------------------------------------------------------------------------------------------*/
-    // Frances' Question
+    // Question 4
 
     System.out.println("QUESTION 4");
     System.out.println("What was candy corn originally called?");
@@ -162,7 +162,7 @@ class Main {
     System.out.flush();
 
     /*-------------------------------------------------------------------------------------------------------------------------*/
-    // Angelica's question
+    // Question 5
 
     System.out.println("QUESTION 5");
     System.out.println("What was the first computer system that used color display?");
@@ -187,7 +187,7 @@ class Main {
     System.out.flush();
 
     /*-------------------------------------------------------------------------------------------------------------------------*/
-    // Sebastian's Question
+    // Question 6
 
     System.out.println("QUESTION 6");
     System.out.println("What's 9 + 10?");
@@ -215,7 +215,7 @@ class Main {
     System.out.flush();
 
     /*-------------------------------------------------------------------------------------------------------------------------*/
-    // Bryan's question
+    // Question 7
 
     System.out.println("QUESTION 7");
     System.out.println("Which famous author wrote the classic Gothic novel \"Dracula\"?");
@@ -239,7 +239,7 @@ class Main {
     System.out.flush();
 
     /*-------------------------------------------------------------------------------------------------------------------------*/
-
+    // Question 8
     System.out.println("QUESTION 8");
     System.out.println("Who brought the Halloween tradition to the United States?");
     System.out.println("A. The Irish");
@@ -262,7 +262,7 @@ class Main {
     System.out.flush();
 
     /*-------------------------------------------------------------------------------------------------------------------------*/
-    // Shelby's Question
+    // Question 9
 
     System.out.println("QUESTION 9 \nTrue or False? \nA. True \nB. False\n C. Both");
     answer = scnr.nextLine();
@@ -280,7 +280,7 @@ class Main {
     System.out.flush();
 
     /*-------------------------------------------------------------------------------------------------------------------------*/
-    // Frances' Second Question
+    // Question 10
 
     System.out.println("QUESTION 10");
     System.out.println("Who broke the sound barrier and when?");
@@ -306,9 +306,7 @@ class Main {
     System.out.flush();
 
     /*-------------------------------------------------------------------------------------------------------------------------*/
-    // Cristians Question
-    /*-------------------------------------------------------------------------------------------------------------------------*/
-
+    
     // System.out.println();
     printEndScreen(numCorrect); // Excecutes method that prints the end screen
 
