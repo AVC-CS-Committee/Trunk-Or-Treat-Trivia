@@ -372,33 +372,27 @@ class Main {
     // Switch statement based on how many questions right
     switch (numCorrect) {
       case 0:
-        System.out.println("- Wow you got all wrong! Too bad! -");
+        System.out.println("- It seems you actually got zero, but don't let that hurt your ego! -");
         break;
-
       case 1:
       case 2:
       case 3:
       case 4:
-        System.out.println("- You got " + numCorrect + " correct. Nice! -");
+        System.out.println("- You managed only " + numCorrect + ", nothing to scream about! -");
         break;
-
       case 5:
-        System.out.println("- You got half right! Good job! -");
+        System.out.println("- You got five, halfway to your prize! -");
         break;
-
       case 6:
       case 7:
       case 8:
-      case 9:
-        System.out.println("- You got " + numCorrect + " correct! Great job! -");
+        System.out.println("- You got " + numCorrect + " correct! Greater than all those who tried before! -");
         break;
-
+      case 9:
+        system.out.println("- You have gotten nine, being so close to the end must send a chill down your spine! -");
+        break;
       case 10:
-        System.out.println("Wow you got " + numCorrect
-            + " right, thats pretty good! But there are 11 questions... Darn! You were so close to being a perfect human being and being selected for our AVC super soldier program. But since you missed the test by only one you have to live the rest of your life as a boring normal person pondering on what your could have been... Sorry.");
-      case 11:
-        System.out.println(
-            "- Perfect!!! You are a perfect speicimen and have been selected for our AVC super solider program. All we need is just 5 more minutes of your time, your social-security number, bank account number, and your first and last name. Thank You! -");
+        System.out.println("- Wow you got a perfect ten, think of the treats you will now attain! -");
         break;
     }
   }
