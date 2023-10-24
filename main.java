@@ -113,20 +113,20 @@ class Main {
     // Peter's Question
 
     System.out.println("QUESTION 3");
-    System.out.println("Choose a valid variable assignment: String myStr = ?");
+    System.out.println("In which country did Halloween start?");
 
-    System.out.println("A. 1");
-    System.out.println("B. 'c'");
-    System.out.println("C. \"myString\"");
-    System.out.println("D. myString");
+    System.out.println("A. Brazil");
+    System.out.println("B. Ireland");
+    System.out.println("C. India");
+    System.out.println("D. Germany");
 
     answer = scnr.nextLine();
 
-    if (answer.equalsIgnoreCase("C")) {
+    if (answer.equalsIgnoreCase("B")) {
       numCorrect++;
       System.out.println("Correct!");
     } else {
-      System.out.println("Incorrect.");
+      System.out.println("Incorrect. It began as a festival, Samhain, in Ireland");
     }
 
     System.out.println("Press enter to continue.");
@@ -139,20 +139,20 @@ class Main {
     // Frances' Question
 
     System.out.println("QUESTION 4");
-    System.out.println("(Who wrote the 1812 Overture?)");
+    System.out.println("What was candy corn originally called?");
 
-    System.out.println("A.Mozart");
-    System.out.println("B.Dvorak");
-    System.out.println("C.Tchaikovsky");
-    System.out.println("D.Stravinsky");
+    System.out.println("A. Chicken Feed");
+    System.out.println("B. Pumpkin corn");
+    System.out.println("C. Chicken wings");
+    System.out.println("D. Air heads");
 
     answer = scnr.nextLine();
 
-    if (answer.equalsIgnoreCase("C")) {
+    if (answer.equalsIgnoreCase("A")) {
       numCorrect++;
-      System.out.println("Wow! You're so smart! You must have a good taste in music! (and secretly love the Russians)");
+      System.out.println("Correct!");
     } else {
-      System.out.println("Are you kidding me? I guess you don't love the Russians!");
+      System.out.println("Incorrect. It was originally called chicken feed ");
     }
 
     System.out.println("Press enter to continue.");
