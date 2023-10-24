@@ -101,7 +101,7 @@ class Main {
       System.out.println(
           "Correct! You Would think it would be Candy Corn.");
     } else {
-      System.out.println("Unfortunately, your wrong.... And basic... And wrong");
+      System.out.println("Unfortunately the answer was Skittles so your wrong.... And basic... And wrong");
     }
     System.out.println(" ");
     System.out.print("Press enter to continue.");
