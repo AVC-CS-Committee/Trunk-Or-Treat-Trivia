@@ -189,20 +189,20 @@ class Main {
     // Question 6
 
     System.out.println("QUESTION 6");
-    System.out.println("In the song \"Monster Mash,\" who throws a party for monsters?");
+    System.out.println("What's 9 + 10?");
 
-    System.out.println("A. Dr. Frakenstein");
-    System.out.println("B. The Mummy");
-    System.out.println("C. Igor");
-    System.out.println("D. Count Dracula");
+    System.out.println("A. 9");
+    System.out.println("B. 21");
+    System.out.println("C. 19");
+    System.out.println("D. 56");
 
     answer = scnr.nextLine();
 
-    if (answer.equalsIgnoreCase("B")) {
+    if (answer.equalsIgnoreCase("C")) {
       numCorrect++;
-      System.out.println("I see you, Good Work!");
-    } else if (answer.equalsIgnoreCase("A")) {
-      System.out.println("Get better, the answer is A. Dr. Frakenstein. Just because you lost heres a fun fact Halowwen is now the second largest commercial holiday in the country!.");
+      System.out.println("Good job!");
+    } else if (answer.equalsIgnoreCase("B")) {
+      System.out.println("You are quite dense.");
     } else {
       System.out.println("Incorrect");
     }
@@ -217,20 +217,19 @@ class Main {
     // Question 7
 
     System.out.println("QUESTION 7");
-    System.out.println("What is the name of the famous animated film produced by Tim Burton about a skeleton who discovers a town dedicated to Halloween?");
-    
-    System.out.println("A. Corpse Bride");
-    System.out.println("B. Frankenweenie");
-    System.out.println("C. The Nightmare Before Christmas");
-    System.out.println("D. Coraline");
+    System.out.println("Which famous author wrote the classic Gothic novel \"Dracula\"?");
+    System.out.println("A. Mary Shelley");
+    System.out.println("B. Edgar Allan Poe");
+    System.out.println("C. Bram Stoker");
+    System.out.println("D. H.P. Lovecraft");
 
     answer = scnr.nextLine();
 
     if (answer.equalsIgnoreCase("C")) {
       numCorrect++;
-      System.out.println("You are cooking!! Keep Going!");
+      System.out.println("That is correct! You sure know your books! :)");
     } else {
-      System.out.println("Cannot believe you failed, welp by the way the answer is C. The Nightmare Before Christmas.");
+      System.out.println("Wrong! The author of \"Dracula\" is Bram Stoker.");
     }
     System.out.println("Press enter to continue");
     continueEnter = scnr.nextLine();
