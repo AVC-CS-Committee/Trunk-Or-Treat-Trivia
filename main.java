@@ -360,7 +360,7 @@ class Main {
         System.out.println("- You got " + numCorrect + " correct! Greater than all those who tried before! -");
         break;
       case 9:
-        system.out.println("- You have gotten nine, being so close to the end must send a chill down your spine! -");
+        System.out.println("- You have gotten nine, being so close to the end must send a chill down your spine! -");
         break;
       case 10:
         System.out.println("- Wow you got a perfect ten, think of the treats you will now attain! -");
