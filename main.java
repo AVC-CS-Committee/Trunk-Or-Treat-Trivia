@@ -164,20 +164,20 @@ class Main {
     // Question 5
 
     System.out.println("QUESTION 5");
-    System.out.println("What was the first computer system that used color display?");
+    System.out.println("What is the name of the famous animated film produced by Tim Burton about a skeleton who discovers a town dedicated to Halloween?");
 
-    System.out.println("A. IBM 650");
-    System.out.println("B. Apple 1");
-    System.out.println("C. Atanasoff-Berry Computer");
-    System.out.println("D. Hewlett-Packard");
+    System.out.println("A. Corpse Bride");
+    System.out.println("B. Frankenweenie");
+    System.out.println("C. The Nightmare Before Christmas");
+    System.out.println("D. Coraline");
 
     answer = scnr.nextLine();
 
-    if (answer.equalsIgnoreCase("B")) {
+    if (answer.equalsIgnoreCase("C")) {
       numCorrect++;
-      System.out.println("Coooooorrect! Apple's a goat");
+      System.out.println("You are cooking!! Keep Going!");
     } else {
-      System.out.println("wrong!! you're so dumb lol. It's obvi the Apple 1");
+      System.out.println("Cannot believe you failed, welp by the way the answer is C. The Nightmare Before Christmas.");
     }
     System.out.println("Press enter to continue.");
     continueEnter = scnr.nextLine();
@@ -189,20 +189,21 @@ class Main {
     // Question 6
 
     System.out.println("QUESTION 6");
-    System.out.println("What's 9 + 10?");
+    System.out.println("In the song \\\"Monster Mash,\\\" who throws a party for monsters?");
 
-    System.out.println("A. 9");
-    System.out.println("B. 21");
-    System.out.println("C. 19");
-    System.out.println("D. 56");
+    System.out.println("A. Dr. Frakenstein");
+    System.out.println("B. The Mummy");
+    System.out.println("C. Igor");
+    System.out.println("D. Count Dracula");
+
 
     answer = scnr.nextLine();
 
-    if (answer.equalsIgnoreCase("C")) {
+    if (answer.equalsIgnoreCase("A")) {
       numCorrect++;
-      System.out.println("Good job!");
+      System.out.println("I see you, Good Work!");
     } else if (answer.equalsIgnoreCase("B")) {
-      System.out.println("You are quite dense.");
+      System.out.println("Get better, the answer is A. Dr. Frakenstein. Just because you lost heres a fun fact Halowwen is now the second largest commercial holiday in the country!");
     } else {
       System.out.println("Incorrect");
     }
