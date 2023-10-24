@@ -1,11 +1,8 @@
 /*
-Project Lead: Samuel Segovia
-Authors: Samuel Segovia, Cristian Herrera,Shane Powell, Jason Yang, Logan Sanchez, Bryan Abrego, Peter Kallos,
-         Kevin Flores, Frances Kaufmann, Angelica Holley
-Contributions: Shebly Gallegos, CIS 111 Zybooks
-Project Name: STEM_Trivia
-Comppletion Date: 10/09/2022
-Description: This project is a trivia game featuring 10 questions with some being STEM related questions and some being of another topic. 
+Authors: Logan Sanchez, Bailey Kwok, Blake Mosley, Rianne Papa, David Diaz, Matthew Bui, Ryan Reeves, Rafael Papa
+Project Name: Trunk-Or-Treat-Trivia
+Comppletion Date: 10/23/2023
+Description: This project is a halloween-themed trivia game featuring 10 questions, and a score at the end. 
              After answering the 10 questions, the amount of answers correct is counted using the numCorrect variable, and the correct 
              number of correct answers will be displayed along with an end message.
 
@@ -87,7 +84,7 @@ class Main {
     System.out.flush();
 
     /*-------------------------------------------------------------------------------------------------------------------------*/
-    // Logan's question
+    // Question 2
 
     System.out.println("QUESTION 2");
     System.out.println("What is the most popular Halloween candy in America. ");
@@ -114,23 +111,23 @@ class Main {
     System.out.print("\033[H\033[2J");
     System.out.flush();
     /*-------------------------------------------------------------------------------------------------------------------------*/
-    // Peter's Question
+    // Question 3
 
     System.out.println("QUESTION 3");
-    System.out.println("Choose a valid variable assignment: String myStr = ?");
+    System.out.println("In which country did Halloween start?");
 
-    System.out.println("A. 1");
-    System.out.println("B. 'c'");
-    System.out.println("C. \"myString\"");
-    System.out.println("D. myString");
+    System.out.println("A. Brazil");
+    System.out.println("B. Ireland");
+    System.out.println("C. India");
+    System.out.println("D. Germany");
 
     answer = scnr.nextLine();
 
-    if (answer.equalsIgnoreCase("C")) {
+    if (answer.equalsIgnoreCase("B")) {
       numCorrect++;
       System.out.println("Correct!");
     } else {
-      System.out.println("Incorrect.");
+      System.out.println("Incorrect. It began as a festival, Samhain, in Ireland");
     }
 
     System.out.println("Press enter to continue.");
@@ -140,23 +137,23 @@ class Main {
     System.out.flush();
 
     /*-------------------------------------------------------------------------------------------------------------------------*/
-    // Frances' Question
+    // Question 4
 
     System.out.println("QUESTION 4");
-    System.out.println("(Who wrote the 1812 Overture?)");
+    System.out.println("What was candy corn originally called?");
 
-    System.out.println("A.Mozart");
-    System.out.println("B.Dvorak");
-    System.out.println("C.Tchaikovsky");
-    System.out.println("D.Stravinsky");
+    System.out.println("A. Chicken Feed");
+    System.out.println("B. Pumpkin corn");
+    System.out.println("C. Chicken wings");
+    System.out.println("D. Air heads");
 
     answer = scnr.nextLine();
 
-    if (answer.equalsIgnoreCase("C")) {
+    if (answer.equalsIgnoreCase("A")) {
       numCorrect++;
-      System.out.println("Wow! You're so smart! You must have a good taste in music! (and secretly love the Russians)");
+      System.out.println("Correct!");
     } else {
-      System.out.println("Are you kidding me? I guess you don't love the Russians!");
+      System.out.println("Incorrect. It was originally called chicken feed ");
     }
 
     System.out.println("Press enter to continue.");
@@ -166,7 +163,7 @@ class Main {
     System.out.flush();
 
     /*-------------------------------------------------------------------------------------------------------------------------*/
-    // Angelica's question
+    // Question 5
 
     System.out.println("QUESTION 5");
     System.out.println("What was the first computer system that used color display?");
@@ -191,7 +188,7 @@ class Main {
     System.out.flush();
 
     /*-------------------------------------------------------------------------------------------------------------------------*/
-    // Sebastian's Question
+    // Question 6
 
     System.out.println("QUESTION 6");
     System.out.println("What's 9 + 10?");
@@ -219,46 +216,22 @@ class Main {
     System.out.flush();
 
     /*-------------------------------------------------------------------------------------------------------------------------*/
-    // Bryan's question
+    // Question 7
 
     System.out.println("QUESTION 7");
-    System.out.println("What year was Antelope Valley College founded");
-    System.out.println("A. 1929");
-    System.out.println("B. 2020");
-    System.out.println("C. 1895");
-    System.out.println("D. 1738");
-
-    answer = scnr.nextLine();
-
-    if (answer.equalsIgnoreCase("A")) {
-      numCorrect++;
-      System.out.println("GOOD STUFF! You have earned one sheckle dont spend it all in one place :)");
-    } else {
-      System.out.println("AVC is the best how did you get that wrong! No dinner for you tonight!");
-    }
-    System.out.println("Press enter to continue");
-    continueEnter = scnr.nextLine();
-
-    System.out.print("\033[H\033[2J");
-    System.out.flush();
-
-    /*-------------------------------------------------------------------------------------------------------------------------*/
-    // Jason's question
-
-    System.out.println("QUESTION 8");
-    System.out.println("Who is one of the people credited with inventing the Internet?");
-    System.out.println("A. Friedrich Nietzsche");
-    System.out.println("B. Nikola Tesla");
-    System.out.println("C. Robert Khan");
-    System.out.println("D. Clifford Stoll");
+    System.out.println("Which famous author wrote the classic Gothic novel \"Dracula\"?");
+    System.out.println("A. Mary Shelley");
+    System.out.println("B. Edgar Allan Poe");
+    System.out.println("C. Bram Stoker");
+    System.out.println("D. H.P. Lovecraft");
 
     answer = scnr.nextLine();
 
     if (answer.equalsIgnoreCase("C")) {
       numCorrect++;
-      System.out.println("Correct. You must be pretty knowledgable!");
+      System.out.println("That is correct! You sure know your books! :)");
     } else {
-      System.out.println("Really...? Okay...");
+      System.out.println("Wrong! The author of \"Dracula\" is Bram Stoker.");
     }
     System.out.println("Press enter to continue");
     continueEnter = scnr.nextLine();
@@ -267,7 +240,30 @@ class Main {
     System.out.flush();
 
     /*-------------------------------------------------------------------------------------------------------------------------*/
-    // Shelby's Question
+    // Question 8
+    System.out.println("QUESTION 8");
+    System.out.println("Who brought the Halloween tradition to the United States?");
+    System.out.println("A. The Irish");
+    System.out.println("B. The Mexicans");
+    System.out.println("C. The Chinese");
+    System.out.println("D. The British");
+
+    answer = scnr.nextLine();
+
+    if (answer.equalsIgnoreCase("a")) {
+      numCorrect++;
+      System.out.println("Correct. It was the Irish, during the potato famine!");
+    } else {
+      System.out.println("That is the wrong answer. It was the Irish!");
+    }
+    System.out.println("Press enter to continue");
+    continueEnter = scnr.nextLine();
+
+    System.out.print("\033[H\033[2J");
+    System.out.flush();
+
+    /*-------------------------------------------------------------------------------------------------------------------------*/
+    // Question 9
 
     System.out.println("QUESTION 9 \nTrue or False? \nA. True \nB. False\n C. Both");
     answer = scnr.nextLine();
@@ -285,7 +281,7 @@ class Main {
     System.out.flush();
 
     /*-------------------------------------------------------------------------------------------------------------------------*/
-    // Frances' Second Question
+    // Question 10
 
     System.out.println("QUESTION 10");
     System.out.println("Who broke the sound barrier and when?");
@@ -311,34 +307,7 @@ class Main {
     System.out.flush();
 
     /*-------------------------------------------------------------------------------------------------------------------------*/
-    // Cristians Question
-
-    System.out.println("QUESTION 11");
-    System.out.println(
-        "A Few Good Men was a legal drama released in 1992, starring Tom Cruise, Jack Nicholson, and Demi Moore. This film centers around an alleged murder that takes place at a military base, so now I ask you which base?");
-
-    System.out.println("A. Naval Air Station Miramar");
-    System.out.println("B. Guantanamo Bay");
-    System.out.println("C. Langley Air Force Base");
-    System.out.println("D. Who is Tom Cruise?");
-
-    answer = scnr.nextLine();
-
-    if (answer.equalsIgnoreCase("B")) {
-      numCorrect++;
-      System.out.println("Correctamundo!! Fun Fact: This movie was actually based on a true story");
-    } else {
-      System.out.println("YOU CANT HANDLE THE TRUTH!!!!!");
-    }
-
-    System.out.println("Press enter to continue.");
-    continueEnter = scnr.nextLine();
-
-    System.out.print("\033[H\033[2J");
-    System.out.flush();
-
-    /*-------------------------------------------------------------------------------------------------------------------------*/
-
+    
     // System.out.println();
     printEndScreen(numCorrect); // Excecutes method that prints the end screen
 
@@ -373,33 +342,27 @@ class Main {
     // Switch statement based on how many questions right
     switch (numCorrect) {
       case 0:
-        System.out.println("- Wow you got all wrong! Too bad! -");
+        System.out.println("- It seems you actually got zero, but don't let that hurt your ego! -");
         break;
-
       case 1:
       case 2:
       case 3:
       case 4:
-        System.out.println("- You got " + numCorrect + " correct. Nice! -");
+        System.out.println("- You managed only " + numCorrect + ", nothing to scream about! -");
         break;
-
       case 5:
-        System.out.println("- You got half right! Good job! -");
+        System.out.println("- You got five, halfway to your prize! -");
         break;
-
       case 6:
       case 7:
       case 8:
-      case 9:
-        System.out.println("- You got " + numCorrect + " correct! Great job! -");
+        System.out.println("- You got " + numCorrect + " correct! Greater than all those who tried before! -");
         break;
-
+      case 9:
+        System.out.println("- You have gotten nine, being so close to the end must send a chill down your spine! -");
+        break;
       case 10:
-        System.out.println("Wow you got " + numCorrect
-            + " right, thats pretty good! But there are 11 questions... Darn! You were so close to being a perfect human being and being selected for our AVC super soldier program. But since you missed the test by only one you have to live the rest of your life as a boring normal person pondering on what your could have been... Sorry.");
-      case 11:
-        System.out.println(
-            "- Perfect!!! You are a perfect speicimen and have been selected for our AVC super solider program. All we need is just 5 more minutes of your time, your social-security number, bank account number, and your first and last name. Thank You! -");
+        System.out.println("- Wow you got a perfect ten, think of the treats you will now attain! -");
         break;
     }
   }
