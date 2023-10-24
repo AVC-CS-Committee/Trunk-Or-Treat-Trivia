@@ -1,11 +1,8 @@
 /*
-Project Lead: Samuel Segovia
-Authors: Samuel Segovia, Cristian Herrera,Shane Powell, Jason Yang, Logan Sanchez, Bryan Abrego, Peter Kallos,
-         Kevin Flores, Frances Kaufmann, Angelica Holley
-Contributions: Shebly Gallegos, CIS 111 Zybooks
-Project Name: STEM_Trivia
-Comppletion Date: 10/09/2022
-Description: This project is a trivia game featuring 10 questions with some being STEM related questions and some being of another topic. 
+Authors: Logan Sanchez, Bailey Kwok, Blake Mosley, Rianne Papa, David Diaz, Matthew Bui, Ryan Reeves, Rafael Papa
+Project Name: Trunk-Or-Treat-Trivia
+Comppletion Date: 10/23/2023
+Description: This project is a halloween-themed trivia game featuring 10 questions, and a score at the end. 
              After answering the 10 questions, the amount of answers correct is counted using the numCorrect variable, and the correct 
              number of correct answers will be displayed along with an end message.
 
@@ -116,20 +113,20 @@ class Main {
     // Peter's Question
 
     System.out.println("QUESTION 3");
-    System.out.println("Choose a valid variable assignment: String myStr = ?");
+    System.out.println("In which country did Halloween start?");
 
-    System.out.println("A. 1");
-    System.out.println("B. 'c'");
-    System.out.println("C. \"myString\"");
-    System.out.println("D. myString");
+    System.out.println("A. Brazil");
+    System.out.println("B. Ireland");
+    System.out.println("C. India");
+    System.out.println("D. Germany");
 
     answer = scnr.nextLine();
 
-    if (answer.equalsIgnoreCase("C")) {
+    if (answer.equalsIgnoreCase("B")) {
       numCorrect++;
       System.out.println("Correct!");
     } else {
-      System.out.println("Incorrect.");
+      System.out.println("Incorrect. It began as a festival, Samhain, in Ireland");
     }
 
     System.out.println("Press enter to continue.");
@@ -142,20 +139,20 @@ class Main {
     // Frances' Question
 
     System.out.println("QUESTION 4");
-    System.out.println("(Who wrote the 1812 Overture?)");
+    System.out.println("What was candy corn originally called?");
 
-    System.out.println("A.Mozart");
-    System.out.println("B.Dvorak");
-    System.out.println("C.Tchaikovsky");
-    System.out.println("D.Stravinsky");
+    System.out.println("A. Chicken Feed");
+    System.out.println("B. Pumpkin corn");
+    System.out.println("C. Chicken wings");
+    System.out.println("D. Air heads");
 
     answer = scnr.nextLine();
 
-    if (answer.equalsIgnoreCase("C")) {
+    if (answer.equalsIgnoreCase("A")) {
       numCorrect++;
-      System.out.println("Wow! You're so smart! You must have a good taste in music! (and secretly love the Russians)");
+      System.out.println("Correct!");
     } else {
-      System.out.println("Are you kidding me? I guess you don't love the Russians!");
+      System.out.println("Incorrect. It was originally called chicken feed ");
     }
 
     System.out.println("Press enter to continue.");
@@ -221,19 +218,19 @@ class Main {
     // Bryan's question
 
     System.out.println("QUESTION 7");
-    System.out.println("What year was Antelope Valley College founded");
-    System.out.println("A. 1929");
-    System.out.println("B. 2020");
-    System.out.println("C. 1895");
-    System.out.println("D. 1738");
+    System.out.println("Which famous author wrote the classic Gothic novel \"Dracula\"?");
+    System.out.println("A. Mary Shelley");
+    System.out.println("B. Edgar Allan Poe");
+    System.out.println("C. Bram Stoker");
+    System.out.println("D. H.P. Lovecraft");
 
     answer = scnr.nextLine();
 
-    if (answer.equalsIgnoreCase("A")) {
+    if (answer.equalsIgnoreCase("C")) {
       numCorrect++;
-      System.out.println("GOOD STUFF! You have earned one sheckle dont spend it all in one place :)");
+      System.out.println("That is correct! You sure know your books! :)");
     } else {
-      System.out.println("AVC is the best how did you get that wrong! No dinner for you tonight!");
+      System.out.println("Wrong! The author of \"Dracula\" is Bram Stoker.");
     }
     System.out.println("Press enter to continue");
     continueEnter = scnr.nextLine();
@@ -242,22 +239,21 @@ class Main {
     System.out.flush();
 
     /*-------------------------------------------------------------------------------------------------------------------------*/
-    // Jason's question
 
     System.out.println("QUESTION 8");
-    System.out.println("Who is one of the people credited with inventing the Internet?");
-    System.out.println("A. Friedrich Nietzsche");
-    System.out.println("B. Nikola Tesla");
-    System.out.println("C. Robert Khan");
-    System.out.println("D. Clifford Stoll");
+    System.out.println("Who brought the Halloween tradition to the United States?");
+    System.out.println("A. The Irish");
+    System.out.println("B. The Mexicans");
+    System.out.println("C. The Chinese");
+    System.out.println("D. The British");
 
     answer = scnr.nextLine();
 
-    if (answer.equalsIgnoreCase("C")) {
+    if (answer.equalsIgnoreCase("a")) {
       numCorrect++;
-      System.out.println("Correct. You must be pretty knowledgable!");
+      System.out.println("Correct. It was the Irish, during the potato famine!");
     } else {
-      System.out.println("Really...? Okay...");
+      System.out.println("That is the wrong answer. It was the Irish!");
     }
     System.out.println("Press enter to continue");
     continueEnter = scnr.nextLine();
@@ -311,31 +307,6 @@ class Main {
 
     /*-------------------------------------------------------------------------------------------------------------------------*/
     // Cristians Question
-
-    System.out.println("QUESTION 11");
-    System.out.println(
-        "A Few Good Men was a legal drama released in 1992, starring Tom Cruise, Jack Nicholson, and Demi Moore. This film centers around an alleged murder that takes place at a military base, so now I ask you which base?");
-
-    System.out.println("A. Naval Air Station Miramar");
-    System.out.println("B. Guantanamo Bay");
-    System.out.println("C. Langley Air Force Base");
-    System.out.println("D. Who is Tom Cruise?");
-
-    answer = scnr.nextLine();
-
-    if (answer.equalsIgnoreCase("B")) {
-      numCorrect++;
-      System.out.println("Correctamundo!! Fun Fact: This movie was actually based on a true story");
-    } else {
-      System.out.println("YOU CANT HANDLE THE TRUTH!!!!!");
-    }
-
-    System.out.println("Press enter to continue.");
-    continueEnter = scnr.nextLine();
-
-    System.out.print("\033[H\033[2J");
-    System.out.flush();
-
     /*-------------------------------------------------------------------------------------------------------------------------*/
 
     // System.out.println();
