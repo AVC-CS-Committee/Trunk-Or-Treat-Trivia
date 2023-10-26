@@ -189,7 +189,7 @@ class Main {
     // Question 6
 
     System.out.println("QUESTION 6");
-    System.out.println("In the song \\\"Monster Mash,\\\" who throws a party for monsters?");
+    System.out.println("In the song \"Monster Mash\", who throws a party for monsters?");
 
     System.out.println("A. Dr. Frakenstein");
     System.out.println("B. The Mummy");
