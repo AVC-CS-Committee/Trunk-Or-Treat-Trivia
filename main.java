@@ -112,12 +112,12 @@ class Main {
     // Question 3
 
     System.out.println("QUESTION 3");
-    System.out.println("In which country did Halloween start?");
+    System.out.println("What special days is Halloween a part of?");
 
-    System.out.println("A. Brazil");
-    System.out.println("B. Ireland");
-    System.out.println("C. India");
-    System.out.println("D. Germany");
+    System.out.println("A. The 12 days of Christmas");
+    System.out.println("B. Hallowtide");
+    System.out.println("C. Groundhog Day");
+    System.out.println("D. St Valentine and St Patrick’s Day");
 
     answer = scnr.nextLine();
 
@@ -125,7 +125,7 @@ class Main {
       numCorrect++;
       System.out.println("Correct!");
     } else {
-      System.out.println("Incorrect. It began as a festival, Samhain, in Ireland");
+      System.out.println("Incorrect. Notice the prefix in Hollowtide.");
     }
 
     System.out.println("Press enter to continue.");
